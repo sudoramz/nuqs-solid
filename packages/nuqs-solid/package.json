@@ -1,0 +1,35 @@
+{
+  "name": "nuqs-solid",
+  "version": "0.0.0-semantically-released",
+  "description": "Solid adaptation of the `nuqs` library for managing URL query strings as state",
+  "license": "MIT",
+  "author": {
+    "name": "Mihlali Jordan",
+    "email": "mihlali@glue.africa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihlali-jordan/nuqs-solid.git",
+    "directory": "packages/nuqs-solid"
+  },
+  "keywords": [
+    "url state",
+    "url",
+    "querystring",
+    "query string",
+    "search params",
+    "solid-usequerystate",
+    "solid-createquerystate",
+    "solidstart-createquerystate",
+    "solidstart-usequerystate",
+    "useQueryState",
+    "createQueryState",
+    "createQueryStates",
+    "useQueryStates",
+    "nuqs-solid",
+    "nuqs solid",
+    "solidjs",
+    "solid-start",
+    "solidstart"
+  ]
+}
