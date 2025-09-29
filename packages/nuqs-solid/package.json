@@ -42,6 +42,7 @@
     "@types/node": "^24.6.0"
   },
   "peerDependencies": {
-    "solid-js": ">= 1.9.4"
+    "solid-js": ">= 1.9.4",
+    "@tanstack/solid-router": "^1.121.3"
   }
 }

@@ -10,7 +10,7 @@ import {
   useAdapter,
   useAdapterDefaultOptions,
   useAdapterProcessUrlSearchParams
-} from "./adapters/context"
+} from "./adapters/lib/context"
 import type { Options, Nullable, UrlKeys } from "./defs"
 import { compareQuery } from "./lib/compare"
 import { debug } from "./lib/debug"
