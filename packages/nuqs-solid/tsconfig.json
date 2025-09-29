@@ -1,9 +1,20 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["node_modules", "dist"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
   "compilerOptions": {
-    "lib": ["ES2024", "DOM", "DOM.Iterable"],
+    "target": "ES2024",
+    "lib": [
+      "ES2024",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "module": "ESNext",
     "moduleResolution": "bundler",
     "jsx": "preserve",
@@ -17,6 +28,9 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "types": ["vite/client", "node"],
+  "types": [
+    "vite/client",
+    "node"
+  ],
   "verbatimModuleSyntax": false
 }
