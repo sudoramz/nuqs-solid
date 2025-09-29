@@ -31,5 +31,16 @@
     "solidjs",
     "solid-start",
     "solidstart"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@standard-schema/spec": "1.0.0"
+  },
+  "peerDependencies": {
+    "solid-js": ">= 1.9.4"
+  }
 }
