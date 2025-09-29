@@ -1,37 +1,22 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "include": [
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist"],
   "compilerOptions": {
+    "lib": ["ES2024", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "module": "ESNext"
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
   },
-  "lib": [
-    "ES2024",
-    "DOM",
-    "DOM.Iterable"
-  ],
-  "types": [
-    "vite/client",
-    "node"
-  ],
-  /* Bundler mode */
-  "moduleResolution": "bundler",
-  "allowImportingTsExtensions": true,
-  "verbatimModuleSyntax": false,
-  "noEmit": true,
-  /* Linting */
-  "skipLibCheck": true,
-  "strict": true,
-  "noUnusedLocals": true,
-  "noUnusedParameters": true,
-  "noFallthroughCasesInSwitch": true,
-  "noUncheckedSideEffectImports": true
+  "types": ["vite/client", "node"],
+  "verbatimModuleSyntax": false
 }
