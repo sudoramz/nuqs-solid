@@ -5,10 +5,10 @@ import {
   type JSX,
   type ParentComponent
 } from 'solid-js'
-import { Options } from '../defs'
-import { AdapterInterface, UseAdapterHook } from './lib/defs'
-import { error } from '../lib/errors'
-import { debugEnabled } from '../lib/debug'
+import { Options } from '../../defs'
+import { AdapterInterface, UseAdapterHook } from './defs'
+import { error } from '../../lib/errors'
+import { debugEnabled } from '../../lib/debug'
 
 export type AdapterProps = {
   defaultOptions?: Partial<
